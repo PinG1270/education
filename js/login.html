@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生登录js版本</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <script>
+        var data={
+            code:0,
+            list:[
+                {
+                    name:'学生登录',
+                    login_name:'账号登录',
+                    input_name:'请输入账号或手机号',
+                    input_name2:'请输入账号密码',
+                    input_name3:'登录',
+                    rumeber_name:'忘记密码',
+                    
+
+                }
+            ]
+        }
+        
+        var num = data.list;
+        document.write('<div class="box">')
+        for(var i=0;i<num.length;i++){
+            var name = num[i].name;
+            var login_name =num[i].login_name;
+            var input_name =num[i].input_name;
+            var input_name2 =num[i].input_name2;
+            var input_name3 =num[i].input_name3;
+            var rumeber_name =num[i].rumeber_name;
+            document.write(`
+            <div class="login-box">
+            <span>${name}</span>
+            <p>${login_name}</p>
+            <input type="text" name="around" placeholder="${input_name}">
+            <p>&nbsp;</p>
+            <input type="password" name="password" placeholder="${input_name2}">
+            <a href="./mysubject.html">
+                <input type="button" name="button" value="${input_name3}">
+            </a>
+            
+            <span>${rumeber_name}</span>
+       </div>
+            `)
+        }
+    </script>
+</body>
+</html>

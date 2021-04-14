@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline-style: none;
+}
+body{
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    background-color: #f0f2f560;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    min-width: 1200px;
+    height: 64px;
+    background-color: #00182e;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 44px;
+    height: 44px;
+}
+.nav-logo span{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+.nav-left{
+    width: 484px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left a{
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+}
+.nav-left a p span{
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-left a p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(247, 247, 247, 0.686274509803922);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a:nth-child(3){
+    position: relative;
+    overflow: hidden;
+}
+.bell img{
+    width: 16px;
+    height: 16px;
+}
+.wel{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.wel img{
+    width: 31px;
+    height: 31px;
+    margin-left: 20px;
+}
+header{
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(to right,#021a81, #01157a);
+}
+.head{
+    height: 256px;
+    background-image: url(../index-img/我的课程图.png);
+    background-size: 100% 100%;
+}
+.head-box{
+    width: 100%;
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+}
+.hed-box{
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+}
+.head-left a{
+    display: block;
+    width: 163px;
+    height: 163px;
+    margin: 0px 30px 0 0;
+}
+.head-left div{
+    color: #ffffff;
+}
+.head-left div p:first-child{
+    font-weight: 700;
+    font-size: 28px;
+    margin: 20px 0 20px;
+}
+.head-left div p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+}
+.head-right{
+    width: 602px;
+    height: 110px;
+    margin-right: -80px;
+    display: flex;
+}
+.head-one{
+    width: 140px;
+    height: 110px;
+}
+.head-two{
+    width: 152px;
+    height: 110px;
+}
+.head-thr{
+    width: 168px;
+    height: 110px;
+}
+.head-for{
+    width: 142px;
+    height: 110px;
+}
+.head-one div:first-child{
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-one div:last-child{
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: -10px;
+}
+.head-two div:first-child{
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-two div:last-child{
+    width: 152px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: -20px;
+}
+.head-thr div:first-child{
+    width: 168px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-thr div:last-child{
+    width: 168px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 14px;
+}
+.head-for div:first-child{
+    width: 142px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-for div:last-child{
+    width: 142px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 15px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.sub{
+    width: 1152px;
+    height: 980px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-left{
+    width: 244px;
+    height: 256px;
+}
+.sub-left ul li{
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.sub-left ul li a{
+    display: block;
+    width: 244px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 64px;
+    color: #333333;
+}
+.sub-left ul li a:hover,
+.sub-left ul li a span{
+    color: #FACB05;
+}
+.account{
+    width: 835px;
+    height: 939px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.acc-tit{
+    width: 835px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffffff;  
+}
+.acc-box{
+    width: 835px;
+    height: 843px;
+}
+.acc-top{
+    display: flex;
+    margin-top: 20px;
+}
+.acc-top a{
+    display: block;
+    width: 114px;
+    height: 42px;
+    margin-right: 12px;
+
+}
+.acc-top a input{
+    width: 114px;
+    height: 42px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    outline-style: none;
+    font-size: 16px;
+}
+.acc-top a input:hover,
+.acc-top p a input{
+    background: #facb05;
+    color: #ffffff;
+    font-weight: 700;
+}
+.acc-top .ray{
+    margin-left: 30px;
+    
+}
+.acc-one{
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    color: #333333;
+}
+.acc-one select{
+    width: 300px;
+    height: 43px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 1px solid #bcbcbc;
+    color: #0000003f;
+}
+
+.acc-two{
+    margin-top: 25px;
+    font-size: 16px;
+    color: #333333;
+}
+.acc-two span:nth-child(1){
+    margin: 0 40px 0 30px;
+}
+.acc-for,
+.acc-thr{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333333;
+}
+.acc-thr label{
+    margin: 0 8px 0 30px;
+}
+.acc-for input,
+.acc-thr input{
+    width: 300px;
+    height: 42px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline-style: none;
+    border: 1px solid #bcbcbc;
+    font-size: 13px;
+}
+.acc-for label{
+    margin: 0 40px 0 30px;
+}
+.acc-fiv{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 30px;
+}
+.ount{
+
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+.acc-fiv input{
+    width: 26px;
+    height: 26px;
+}
+.acc-fiv span{
+    margin-right: 20px;
+}
+.ount a{
+    display: block;
+    width: 114px;
+    height: 42px;
+    margin-right: 10px;
+}
+.ount a input{
+    width: 114px;
+    height: 42px;
+    border: none;
+    outline-style: none;
+    border-radius: 4px;
+    background: #facb05;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ount a:nth-child(2) input{
+    width: 114px;
+    height: 42px;
+    outline-style: none;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #bcbcbc;
+    font-weight: 400;
+}
+footer{
+    min-width: 1200px;
+    width: 100%;
+    height: 285px;
+    background-color: #000000;
+}
+.foot{
+    height: 285px;
+}
+.foot-box{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left{
+    height: 154px;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.foot-left div a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.foot-left div{
+    margin-right: 150px;
+}
+.foot-left div:nth-child(2){
+    font-size: 16px;
+}
+.foot-left div span{
+    display: block;
+    margin: 20px 0;
+}
+.foot-right{
+    margin-top: 30px;
+    color: #ffffff;
+    display: flex;flex-direction: column;
+    text-align: center;
+}
+.foot-right span{
+    color: rgba(255, 255, 255, 0.819607843137255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.foot-right img{
+    margin-top: 25px;
+    width: 147px;
+    height: 146px;
+}
+.foot p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}

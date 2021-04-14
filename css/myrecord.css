@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline-style: none;
+}
+body{
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    background-color: #f0f2f560;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    min-width: 1200px;
+    height: 64px;
+    background-color: #00182e;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 44px;
+    height: 44px;
+}
+.nav-logo span{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+.nav-left{
+    width: 484px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left a{
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+}
+.nav-left a p:hover,
+.nav-left a p span{
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-left a p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(247, 247, 247, 0.686274509803922);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a:nth-child(3){
+    position: relative;
+    overflow: hidden;
+}
+.bell img{
+    width: 16px;
+    height: 16px;
+}
+.wel{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.wel img{
+    width: 31px;
+    height: 31px;
+    margin-left: 20px;
+}
+header{
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(to right,#021a81, #01157a);
+}
+.head{
+    height: 256px;
+    background-image: url(../index-img/我的课程图.png);
+    background-size: 100% 100%;
+}
+.head-box{
+    width: 100%;
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+}
+.hed-box{
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+}
+.head-left a{
+    display: block;
+    width: 163px;
+    height: 163px;
+    margin: 0px 30px 0 0;
+}
+.head-left div{
+    color: #ffffff;
+}
+.head-left div p:first-child{
+    font-weight: 700;
+    font-size: 28px;
+    margin: 20px 0 20px;
+}
+.head-left div p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+}
+.head-right{
+    width: 602px;
+    height: 110px;
+    margin-right: -80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.head-one{
+    width: 140px;
+    height: 110px;
+}
+.head-two{
+    width: 152px;
+    height: 110px;
+}
+
+.head-one div:first-child{
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-one div:last-child{
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: -20px;
+}
+.head-two div:first-child{
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-two div:last-child{
+    width: 152px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.topic{
+    width: 1153px;
+    height: 500px;
+    margin: 30px 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.topic-left{
+    width: 274px;
+    height: 192px;
+    background: #FFFFFF;
+}
+.topic-left ul li{
+    width: 274px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic-left ul li a{
+    display: block;
+    width: 244px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 64px;
+    color: #333333;
+}
+.topic-left ul li a:hover,
+.topic-left ul li a span{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FACB05;
+}
+.record{
+    width: 835px;
+    height: 500px;
+}
+.record table{
+    width: 835px;
+    height: 301px;
+    border-collapse: collapse;
+}
+.record table tr:nth-child(1){
+    width: 835px;
+    height: 51px;
+    background: #facb05;
+}
+.record table tr th:nth-child(1){
+    width: 299px;
+    height: 51px;
+}
+.record table tr th{
+    text-align: center;
+    line-height: 48px;
+    font-size: 13px;
+    color: #333333;
+    border: 1px solid #ffff;
+    box-sizing: border-box;
+}
+.record table tr th:nth-child(2){
+    width: 194px;
+    height: 51px;
+}
+.record table tr th:nth-child(3){
+    width: 142px;
+    height: 51px;
+}
+.record table tr th:nth-child(4){
+    width: 200px;
+    height: 51px;
+}
+.record table tr:nth-child(3)，
+.record table tr:nth-child(2){
+    width: 835px;
+    height: 125px;
+    background: #cccccc23;
+}
+.record table tr td{
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+    border: 1px solid #ffff;
+    box-sizing: border-box;
+}
+.record table tr td img{
+    width: 117px;
+    height: 80px;
+}
+
+.record table tr td div p img{
+    width: 17px;
+    height: 17px;
+}
+.record table tr td div{
+    display: inline-block;
+    margin-left: 10px;
+}
+.record table tr td div p{
+    text-align: left;
+}
+.record table tr td div p:nth-child(1){
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+.record table tr td div p:nth-child(2){
+    font-size: 12px;
+    color: #333333;
+    margin: 10px 0;
+}
+.record table tr td div p:nth-child(3){
+    font-size: 14px;
+    color: #990000c1;
+}
+footer{
+    min-width: 1200px;
+    width: 100%;
+    height: 285px;
+    background-color: #000000;
+}
+.foot{
+    height: 285px;
+}
+.foot-box{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left{
+    height: 154px;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.foot-left div a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.foot-left div{
+    margin-right: 150px;
+}
+.foot-left div:nth-child(2){
+    font-size: 16px;
+}
+.foot-left div span{
+    display: block;
+    margin: 20px 0;
+}
+.foot-right{
+    margin-top: 30px;
+    color: #ffffff;
+    display: flex;flex-direction: column;
+    text-align: center;
+}
+.foot-right span{
+    color: rgba(255, 255, 255, 0.819607843137255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.foot-right img{
+    margin-top: 25px;
+    width: 147px;
+    height: 146px;
+}
+.foot p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}

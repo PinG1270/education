@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline-style: none;
+}
+body{
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    background-color: #f0f2f560;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    min-width: 1200px;
+    height: 64px;
+    background-color: #00182e;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 44px;
+    height: 44px;
+}
+.nav-logo span{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+.nav-left{
+    width: 484px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left a{
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+}
+.nav-left a p span{
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-left a p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(247, 247, 247, 0.686274509803922);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a:nth-child(3){
+    position: relative;
+    overflow: hidden;
+}
+.bell img{
+    width: 16px;
+    height: 16px;
+}
+.wel{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.wel img{
+    width: 31px;
+    height: 31px;
+    margin-left: 20px;
+}
+header{
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(to right,#021a81, #01157a);
+}
+.head{
+    height: 256px;
+    background-image: url(../index-img/我的课程图.png);
+    background-size: 100% 100%;
+}
+.head-box{
+    width: 100%;
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+}
+.hed-box{
+    height: 256px;
+    background-image: url(../index-img/课程背景.png);
+    background-size: 150% 110%;
+    background-position:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+}
+.head-left a{
+    display: block;
+    width: 163px;
+    height: 163px;
+    margin: 0px 30px 0 0;
+}
+.head-left div{
+    color: #ffffff;
+}
+.head-left div p:first-child{
+    font-weight: 700;
+    font-size: 28px;
+    margin: 20px 0 20px;
+}
+.head-left div p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+}
+.head-right{
+    width: 602px;
+    height: 110px;
+    margin-right: -80px;
+    display: flex;
+}
+.head-one{
+    width: 140px;
+    height: 110px;
+}
+.head-two{
+    width: 152px;
+    height: 110px;
+}
+.head-thr{
+    width: 168px;
+    height: 110px;
+}
+.head-for{
+    width: 142px;
+    height: 110px;
+}
+.head-one div:first-child{
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-one div:last-child{
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: -10px;
+}
+.head-two div:first-child{
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-two div:last-child{
+    width: 152px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: -20px;
+}
+.head-thr div:first-child{
+    width: 168px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-thr div:last-child{
+    width: 168px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 14px;
+}
+.head-for div:first-child{
+    width: 142px;
+    height: 50px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head-for div:last-child{
+    width: 142px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 15px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.sub{
+    width: 1152px;
+    height: 700px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-left{
+    width: 244px;
+    height: 256px;
+}
+.sub-left ul li{
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.sub-left ul li a{
+    display: block;
+    width: 244px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 64px;
+    color: #333333;
+}
+.sub-left ul li a:hover,
+.sub-left ul li a span{
+    color: #FACB05;
+}
+.incom{
+    width: 835px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.incom-one{
+    width: 835px;
+    height: 76px;
+    background: #FFFFFF;
+    padding:0 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.incom-one span:first-child{
+    color: #333333;
+    font-size: 18px;
+}
+.incom-one span:last-child{
+    font-size: 32px;
+    font-weight: 700;
+    color: #facb05;
+}
+.incom-two{
+    width: 835px;
+    height: 526px;
+    background-color: #fff;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+.inc-one{
+    width: 738px;
+    height: 46px;
+    border-bottom: 1px solid #facb05;
+    display: flex;
+    justify-content: space-between;
+}
+.com-left{
+    display: flex;
+}
+.com-left div{
+    width: 89px;
+    height: 46px;
+    padding:0 5px;
+    line-height: 46px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.647058823529412);
+    font-size: 14px;
+    text-align: center;
+}
+.com-left div:nth-child(1){
+    margin:0 20px 0 40px;
+}
+.com-left div:nth-child(2) a:hover,
+.com-left div:nth-child(1) span{
+    display: block;
+    width: 56px;
+    height: 46px;
+    line-height: 52px;
+    padding: 0;
+    color: #facb05;
+    margin-top: -7px;
+    border-bottom: 8px solid #facb05;
+}
+.com-left div:nth-child(1) span{
+    display: block;
+   
+    line-height: 52px;
+    
+    padding: 0;
+    color: #facb05;
+    margin-top: -7px;
+}
+.com-rig input{
+    width: 95px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #facb05;
+    border: none;
+    outline-style: none;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.incom-thr{
+    width: 739px;
+    height: 108px;
+}
+.in-top{
+    width: 739px;
+    height: 54px;
+    border: 1px solid #ebeaea;
+    margin-top: 20px;
+    border-left: none;
+    border-right: none;
+    background-color: #f8f8f8;
+    line-height: 54px;
+    color: rgba(51, 51, 51, 0.537254901960784);
+    font-size: 16px;
+}
+.in-top span:first-child{
+    margin: 0 295px 0 38px;
+}
+.in-top span:nth-child(2){
+    margin-right: 235px;
+}
+.in-bom{
+    width: 739px;
+    height: 54px;
+    line-height: 54px;
+    color: rgba(51, 51, 51, 0.537254901960784);
+    font-size: 16px;
+}
+.in-bom span:first-child{
+    margin: 0 120px 0 38px;
+}
+.in-bom span:nth-child(2){
+    margin-right: 160px;
+}
+footer{
+    min-width: 1200px;
+    width: 100%;
+    height: 285px;
+    background-color: #000000;
+}
+.foot{
+    height: 285px;
+}
+.foot-box{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left{
+    height: 154px;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.foot-left div a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.foot-left div{
+    margin-right: 150px;
+}
+.foot-left div:nth-child(2){
+    font-size: 16px;
+}
+.foot-left div span{
+    display: block;
+    margin: 20px 0;
+}
+.foot-right{
+    margin-top: 30px;
+    color: #ffffff;
+    display: flex;flex-direction: column;
+    text-align: center;
+}
+.foot-right span{
+    color: rgba(255, 255, 255, 0.819607843137255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.foot-right img{
+    margin-top: 25px;
+    width: 147px;
+    height: 146px;
+}
+.foot p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
